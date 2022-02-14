@@ -1,7 +1,7 @@
 package com.tecknobit.aesHelper.Server;
 
-import com.tecknobit.aesCipher.CipherHelpers.CipherHelper;
-import com.tecknobit.aesCipher.Exceptions.KeySizeException;
+import com.tecknobit.aesHelper.CipherHelpers.CipherHelper;
+import com.tecknobit.aesHelper.Exceptions.KeySizeException;
 
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;
