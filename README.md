@@ -125,7 +125,7 @@ For support, email infotecknobitcompany@gmail.com.
 [![](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/developer?id=Tecknobit)
 [![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://github.com/N7ghtm4r3/CipherHelper/blob/main/README.md)
 
-[![](https://jitpack.io/v/N7ghtm4r3/CipherHelper.svg)](https://jitpack.io/#N7ghtm4r3/CipherHelper)
+[![](https://jitpack.io/v/N7ghtm4r3/AESHelper.svg)](https://jitpack.io/#N7ghtm4r3/AESHelper)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Tecknobit)](https://twitter.com/tecknobit)
 
 Copyright © 2022 Tecknobit
