@@ -51,10 +51,13 @@ public class ServerCipher extends CipherHelper {
         return new IvParameterSpec(iv);
     }
 
-    public static SecretKey generateSecretKey() throws NoSuchAlgorithmException {
+    public static SecretKey generateSecretKey(int keySize) throws NoSuchAlgorithmException, KeySizeException {
         KeyGenerator keyGenerator = KeyGenerator.getInstance(ALGORITHM_TYPE);
-        keyGenerator.init(keySize);
-        return keyGenerator.generateKey();
+         if(keySize == MINIMUM_KEY_SIZE || keySize == MEDIUM_KEY_SIZE || keySize == MAXIMUM_KEY_SIZE){
+            keyGenerator.init(keySize);
+            return keyGenerator.generateKey();
+         }else
+            throw new KeySizeException();
     }
 
     public int getKeySize() {
