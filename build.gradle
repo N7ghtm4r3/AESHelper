@@ -21,7 +21,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.tecknobit.aesHelper'
             artifactId = 'AESHelper'
-            version = '1.0.3'
+            version = '1.0.4'
             from components.java
         }
     }
