@@ -1,7 +1,7 @@
 
 # AESHelper
 
-**v1.0.3**
+**v1.0.5**
 
 This is a Java-based library useful to cipher communication between client and server.
 AESHelper will allow you to cipher your communication by client side, server side or both sides together.
@@ -28,7 +28,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.N7ghtm4r3:AESHelper:1.0.3'
+    implementation 'com.github.N7ghtm4r3:AESHelper:1.0.5'
 }
 ```
 
@@ -50,7 +50,7 @@ dependencies {
 <dependency>
     <groupId>com.github.N7ghtm4r3</groupId>
     <artifactId>AESHelper</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.5</version>
 </dependency>
 ```
 
