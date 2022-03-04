@@ -45,13 +45,13 @@ public class ServerCipher extends CipherHelper {
         return super.encrypt(plainMessage);
     }
 
-    public IvParameterSpec generateIvParameterSpec() {
+    public static IvParameterSpec generateIvParameterSpec() {
         byte[] iv = new byte[16];
         new SecureRandom().nextBytes(iv);
         return new IvParameterSpec(iv);
     }
 
-    public SecretKey generateSecretKey() throws NoSuchAlgorithmException {
+    public static SecretKey generateSecretKey() throws NoSuchAlgorithmException {
         KeyGenerator keyGenerator = KeyGenerator.getInstance(ALGORITHM_TYPE);
         keyGenerator.init(keySize);
         return keyGenerator.generateKey();
