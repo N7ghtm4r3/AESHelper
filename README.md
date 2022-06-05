@@ -128,4 +128,14 @@ For support, email infotecknobitcompany@gmail.com.
 [![](https://jitpack.io/v/N7ghtm4r3/AESHelper.svg)](https://jitpack.io/#N7ghtm4r3/AESHelper)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Tecknobit)](https://twitter.com/tecknobit)
 
+
+## Donations 
+
+If you want support project and developer with crypto: **0x5f63cc6d13b16dcf39cd8083f21d50151efea60e**
+
+![](https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin&logoColor=white) 
+![](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
+
+If you want support project and developer with <a href="https://www.paypal.com/donate/?hosted_button_id=5QMN5UQH7LDT4">PayPal</a>
+
 Copyright © 2022 Tecknobit
